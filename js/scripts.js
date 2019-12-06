@@ -9,15 +9,15 @@ $(document).ready(function() {
     var result = (animalChoice + colorChoice + hobbyChoice + drinkChoice + foodChoice)
 
     if (result <= 5) {
-      $("#Ruby").show();
+      $("#Ruby").slideToggle();
       $("#Python,#Csharp").hide();
 
     } else if (result <= 10) {
-      $("#Python").show();
+      $("#Python").slideToggle();
       $("#Ruby, #Csharp").hide();
 
     } else if (result <= 15) {
-      $("#Csharp").show();
+      $("#Csharp").slideToggle();
       $("#Ruby, #Python").hide();
 
 
