@@ -6,12 +6,12 @@
 
 ### Description
 
-_This page is a survey where you can pick a code language to learn based on your preferences. Uses forms and branching._
+_This page is a survey where you can pick a code language to learn based on answering a list of 5 questions. This project uses forms and branching._
 
 
 ## Program Setup Instructions
 
-* _Open in Browser. Must have bootstrap, css, js, and jQuery to view_
+* _Open in Browser. Must have bootstrap, css, js, and updates jQuery to view page._
 
 
 ## Known Bugs

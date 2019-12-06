@@ -4,17 +4,19 @@ $(document).ready(function() {
     var animalChoice = parseInt($("#animalChoice").val());
     var colorChoice = parseInt($("#colorChoice").val());
     var hobbyChoice = parseInt($("#hobbyChoice").val());
-    var result = (animalChoice + colorChoice + hobbyChoice)
+    var drinkChoice = parseInt($("#drinkChoice").val());
+    var foodChoice = parseInt($("#foodChoice").val());
+    var result = (animalChoice + colorChoice + hobbyChoice + drinkChoice + foodChoice)
 
-    if (result <= 3) {
+    if (result <= 5) {
       $("#Ruby").show();
       $("#Python,#Csharp").hide();
 
-    } else if (result <= 6) {
+    } else if (result <= 10) {
       $("#Python").show();
       $("#Ruby, #Csharp").hide();
 
-    } else if (result <= 9) {
+    } else if (result <= 15) {
       $("#Csharp").show();
       $("#Ruby, #Python").hide();
 
