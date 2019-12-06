@@ -11,6 +11,14 @@
   <body>
     <div class="container">
       <form id="language">
+
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+
+
+
         <label for="animalChoice">Choose a favorite animal!</label>
         <select class="form-control" id="animalChoice">
           <option value=1>Cat</option>
@@ -49,7 +57,7 @@
         <button class="btn btn-primary">Find your language!</button>
         <p></p>
         <div id="Ruby">
-          <p>Hey! You got Ruby!</p>
+          <p>Hey! <span id="name"></span> You got Ruby!</p>
           <img src="img/ruby.png" alt="">
         </div>
         <div id="Python">

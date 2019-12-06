@@ -1,12 +1,16 @@
 $(document).ready(function() {
   $("form#language").submit(function(event) {
     event.preventDefault();
+    var name = $("input#name").val();
     var animalChoice = parseInt($("#animalChoice").val());
     var colorChoice = parseInt($("#colorChoice").val());
     var hobbyChoice = parseInt($("#hobbyChoice").val());
     var drinkChoice = parseInt($("#drinkChoice").val());
     var foodChoice = parseInt($("#foodChoice").val());
     var result = (animalChoice + colorChoice + hobbyChoice + drinkChoice + foodChoice)
+
+    $("#name").text(name);
+
 
     if (result <= 5) {
       $("#Ruby").fadeIn();
